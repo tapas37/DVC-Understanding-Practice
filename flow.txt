@@ -18,3 +18,11 @@
 ## now the new id/cupon need to saved so do git add commit and push
 
 ### now repete for the version 3 
+
+
+
+#### for other(check,rollback,pull etc)
+
+# git log --oneline
+# git checkout <sha id > - git checkout master
+# dvc pull
