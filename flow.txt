@@ -1,2 +1,11 @@
 # added data file where we manupulate and do versoning. 
 # do git add commit push before initialzing dvc.
+# pip install dvc
+# now we do "dvc init" initialze dvc
+# we create a local folder named s3 where dvc saved versoning its data(infuture we use aws)
+# we need to tell dvc that s3 is our remote origin save the versoning data there(dvc remote add -d myremote s3)in place s3 we use url of aws
+# we need to tell dvc that in data if anychanges happend dvc need to make versoning or make it saved(dvc add data/)
+   # but before that we need to remove the tracking from git coz git is trackig/versoning the data folder
+   # use these commands to remove it (git rm -r --cached 'data' , git commit -m "stop tracking data")
+   # after removing then again do (dvc add data/)
+# 
