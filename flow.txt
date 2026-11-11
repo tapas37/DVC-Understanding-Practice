@@ -15,4 +15,6 @@
 # now make changes in mycode.py and check via dvc status
 ## dvc showing changes -> dvc commit and dvc push
          ## we will get new id/cupon out from it 
-## now the new id/cupon need to saved 
+## now the new id/cupon need to saved so do git add commit and push
+
+### now repete for the version 3 
