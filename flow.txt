@@ -8,4 +8,7 @@
    # but before that we need to remove the tracking from git coz git is trackig/versoning the data folder
    # use these commands to remove it (git rm -r --cached 'data' , git commit -m "stop tracking data")
    # after removing then again do (dvc add data/)
-# 
+# after dvc added the data it gave a id/cupon code whcih we have done or saved by gitcommit as version1 so when we need this data 
+                              # roll back to this commit and using this cupon/id pull the data
+# we need to save version so we need to do dvc commit and dvc push (then we can see the version in the s3)
+                 # so in s3 for eac versioning we get(1-the saved data and 2- md5 file i.e the cupon/id)
