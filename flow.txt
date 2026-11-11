@@ -24,5 +24,6 @@
 #### for other(check,rollback,pull etc)
 
 # git log --oneline
-# git checkout <sha id > - git checkout master
+# git checkout <sha id > 
+#  git checkout master( to get back first place before roll back)
 # dvc pull
