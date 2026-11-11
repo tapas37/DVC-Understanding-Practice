@@ -12,3 +12,7 @@
                               # roll back to this commit and using this cupon/id pull the data
 # we need to save version so we need to do dvc commit and dvc push (then we can see the version in the s3)
                  # so in s3 for eac versioning we get(1-the saved data and 2- md5 file i.e the cupon/id)
+# now make changes in mycode.py and check via dvc status
+## dvc showing changes -> dvc commit and dvc push
+         ## we will get new id/cupon out from it 
+## now the new id/cupon need to saved 
